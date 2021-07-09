@@ -1,0 +1,86 @@
+::ng-deep .card {
+  display: inline-flex !important;
+  border: none !important;
+  border-radius: 0 !important;
+  width: 30%;
+  background-color: #72774F;
+  margin: 25px 10px 0px 10px;
+}
+::ng-deep .btn-link {
+  color: #fff;
+  text-decoration: none;
+}
+::ng-deep .btn-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+::ng-deep .btn-link:focus {
+  color: #fff;
+  text-decoration: none;
+  box-shadow: none;
+}
+::ng-deep .card-body {
+  font-size: 18px !important;
+  color: #fff;
+}
+.about {
+  background-image: url("../../../assets/images/about_art.png");
+  background-color: #D65939;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 100vw;
+  min-height: 100%;
+  padding: 0;
+  .school {
+    float: left;
+  }
+  .work {
+    float:right;
+  }
+  .goals {
+    float: right;
+  }
+  .profile {
+    margin: 27% 0% 0% 23%;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 5px;
+    height: 60%;
+    z-index: -1;
+    position: fixed;
+    top: -35%;
+    left: -17%;
+    width: 25%;
+    background-color: #fff;
+    .profile-img {
+      border-radius: 50%;
+      height: 31%;
+      width: 36%;
+      margin-bottom: 5%;
+    }
+    .profile-name {
+      color: rgb(48, 48, 48);
+      font-size: 25px;
+    }
+    .profile-title {
+      margin-top: 2%;
+      color: rgb(117, 117, 117);
+    }
+    .profile-desc {
+      font-size: 16px;
+      color: rgb(48, 48, 48);
+      margin: 10% auto;
+    }
+    .profile-socials {
+  
+    }
+    .social-link {
+    
+    }
+    .github img {
+      height: 55px;
+      width: 55px;
+    }
+  }
+}

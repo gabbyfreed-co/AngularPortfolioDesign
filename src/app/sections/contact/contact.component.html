@@ -1,0 +1,17 @@
+<section class="section contact" id="contact"> 
+  <h1 class="header">Contact Me</h1>
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="form-group contact-form">
+    <label for="name" class="label">Name: </label>
+    <input id="name" type="text" formControlName="name" class="form-control input">
+  
+    <label for="email" class="label">Email Address: </label>
+    <input id="email" type="text" formControlName="email" class="form-control input">
+  
+    <label for="phone" class="label">Phone Number: </label>
+    <input id="phone" type="text" formControlName="phone" class="form-control input">
+  
+    <label for="message" class="label">Message: </label>
+    <textarea id="message" rows="10"  cols="50" formControlName="message" class="form-control input"></textarea>
+    <button type="submit" class="form-button">Submit</button>
+  </form>
+</section>
